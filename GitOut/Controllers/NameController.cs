@@ -16,7 +16,7 @@ namespace GitOut.Controllers
 
         public IActionResult Get()
         {
-            var returnName = new Name("Samuel");
+            var returnName = new Name("Samuel", "Bosch-Bird");
             return Ok(returnName);
         }
     }
